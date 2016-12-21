@@ -33,7 +33,7 @@ a:hover, a:active {
 .mainHeader nav{
   background-color: #D3D3D3;
   height: 100%;
-  width: 110px;
+  width: 170px;
   display: block;
   position: fixed;
   left: 0px;
@@ -46,6 +46,7 @@ a:hover, a:active {
 }
 
 .mainHeader nav ul li {
+  width: 100%;
   float: left;
   display: inline;
 }
