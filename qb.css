@@ -20,7 +20,7 @@ a:hover, a:active {
 
 .body {
   margin: 0 auto;
-  width: 70%
+  width: 77%
   }
 
 .mainhHeader img {
@@ -30,16 +30,18 @@ a:hover, a:active {
 }
 
 .mainHeader nav{
-  background-color: #005A9C;
-  height: 40px;
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
+  background-color: #D3D3D3;
+  height: 100%;
+  width: 170px;
+  display: block;
+  position: fixed;
+  left: 0px;
+  top: 100px
 }
 
 .mainHeader nav ul{
-  list-style: none;
-  margin:0 auto;
+  margin:0px;
+  padding: 0px
 }
 
 .mainHeader nav ul li {
@@ -48,7 +50,7 @@ a:hover, a:active {
 }
 
 .mainHeader nav a:link, .mainHeader nav a:visited{
-  color: #FFF;
+  color:   color: #005A9C;
   display: inline-block;
   padding: 10px 19px;
   height: 20px
@@ -56,7 +58,7 @@ a:hover, a:active {
 
 .mainHeader nav a:hover, .mainHeader nav:active, .mainHeader nav .active a:link,
 .mainHeader nav .active a:visited {
-background-color: #1E90FF;
+background-color: #191970;
 text-shadow: none 
 }
 
@@ -67,7 +69,7 @@ text-shadow: none
 }
 
 .mainContent {
-  line-height: 25px
+  line-height: 25px;
   border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
